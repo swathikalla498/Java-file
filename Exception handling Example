@@ -1,0 +1,20 @@
+package com.swathi.java;
+
+class ExceptionEx{
+    String Str1="parent-str";
+    public static void printoutput(){
+        System.out.println("this is Swathi");
+        int num=20;
+        try{
+            int num1=20;
+            System.out.println(num/num1);
+            System.out.println("exception handling in java");
+        
+        }finally{
+            System.out.println("exception handling done");
+        }
+    }
+    public static void main(String args[]){
+      printoutput();
+    }
+}
