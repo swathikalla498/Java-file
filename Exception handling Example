@@ -8,7 +8,7 @@ class ExceptionEx{
         try{
             int num1=20;
             System.out.println(num/num1);
-            System.out.println("exception handling in java");
+            System.out.println("exception handling practice");
         
         }finally{
             System.out.println("exception handling done");
