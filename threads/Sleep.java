@@ -1,20 +1,17 @@
 package threads;
 
 public class Sleep extends Thread{
+	    public static void main(String args[]) {
+	    	try {
+	    		for(int i=0;i<=5;i++) {
+	    			sleep(500);
+	    			System.out.println(i);
+	    		}
+	    	}
+	    		catch(Exception ex) {
+	    			System.out.println(ex);
+	    			System.out.println(ex);
+	    		}
+	    		}
+	    	}
 	    
-		 public void run(){    
-		  for(int i=1;i<5;i++){   
-		 
-		    try{Thread.sleep(0);}catch(InterruptedException e){System.out.println(e);}    
-		    System.out.println(i);    
-		  }    
-		 }    
-		 public static void main(String args[]){    
-		  Sleep t1=new Sleep();    
-		  Sleep t2=new Sleep();    
-		     
-		  t1.start();    
-		  t2.start();    
-		 }    
-		}    
-
