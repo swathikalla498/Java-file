@@ -1,0 +1,22 @@
+package threads;
+
+public class Example extends Thread{
+	
+	public static void main(String args[]) {
+		int x=10;
+		Example obj=new Example();
+		obj.start();
+		System.out.println(x);
+		x++;
+		System.out.println(x);
+	}
+	public void run()
+	{
+		int y=20;
+		System.out.println(y);
+		
+	}
+	
+}
+
+
