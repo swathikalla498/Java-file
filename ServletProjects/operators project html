@@ -5,7 +5,7 @@
 <title>HTML</title>
 </head>
 <body>
-	<form>
+	<form action="http://localhost:8082/ServeletTest/TestServlet" method="">
 		<input type="text"/ placeholder="num1">
 		<input type="text"/ placeholder="num2">
 		<select>
