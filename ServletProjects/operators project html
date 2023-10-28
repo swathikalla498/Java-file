@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>HTML</title>
+</head>
+<body>
+	<form>
+		<input type="text"/ placeholder="num1">
+		<input type="text"/ placeholder="num2">
+		<select>
+			<option>+</option>
+			<option>-</option>
+			<option>*</option>
+			<option>/</option>
+			<option><</option>
+			<option>></option>
+			<option>!=</option>
+		</select>
+	</form>
+<input type="submit"/>
+</body>
+</html>
