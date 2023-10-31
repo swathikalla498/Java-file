@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+      <servlet>
+            <servlet-name>
+                     Tejasri
+            </servlet-name>
+            <servlet-class>
+                     myservlets.Servlet1
+            </servlet-class>
+      </servlet>
+      <servlet-mapping>
+            <servlet-name>
+                     Tejasri
+            </servlet-name>
+           <url-pattern>
+                    /Bhivesh
+           </url-pattern>
+      </servlet-mapping>
+</web-app>
