@@ -1,0 +1,33 @@
+`	<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="center">
+		<h1>User_login</h1>
+	</div>
+ <div>
+	 <form action="https://http://localhost:8080/ExpenseServlet/LoginServlet" method="post">
+		 <table>
+			 <tr> 
+				 <td>user_name</td>
+		 <input type="text" name="user_name" placeholder="enter user_name">
+		 </tr>
+		 <tr>
+		 <td></td><input type="password" name="password" placeholder="enter password"><td><input type="submit" name="login" value="SUBMIT"/></td>
+		 </tr>
+		 <tr>
+		 <td><input type="submit" name="login" value="SUBMIT"/></td></tr>
+		</table>
+	 </form>
+		<form action="http://localhost:8080/ExpenseServlet/Registration.html">
+				<div>
+					<input type="submit" value="NEW USER" />
+				</div>
+			</form>
+ </div>
+</body>
+</html>
