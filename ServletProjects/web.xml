@@ -5,7 +5,7 @@
                      Tejasri
             </servlet-name>
             <servlet-class>
-                     myservlets.Servlet1
+                     myservlets.OperatorExam
             </servlet-class>
       </servlet>
       <servlet-mapping>
