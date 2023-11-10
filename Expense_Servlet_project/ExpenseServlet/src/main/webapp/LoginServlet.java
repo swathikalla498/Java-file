@@ -25,7 +25,7 @@ public class LoginServlet extends HttpServlet {
 		
 		if(Login.validate(s,p)) {
 			
-			RequestDispatcher r=(RequestDispatcher) request.getRequestDispatcher("UserSignInServlet");
+			RequestDispatcher r=(RequestDispatcher) request.getRequestDispatcher("Hpomepage.htmlS");
 			r.forward(request, response);
 		}else {
 			PrintWriter out = null;
