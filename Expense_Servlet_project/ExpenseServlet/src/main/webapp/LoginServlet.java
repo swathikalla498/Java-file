@@ -26,9 +26,11 @@ public class LoginServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doGet(request, response);
 		response.setContentType("text/html");
+		PrintWriter out=response.getWriter();
 		try{
 		Class.forName("com.mysql.cj.jdbc.Driver");
 	    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/daily_spends", "root", "Santu9999@");
+			System.out.println("Driver identified")
 	    String s=request.getParameter("user_name");
 		String p=request.getParameter("password");
 		PreparedStatement ps=con.prepareStatement("select User_name from Users_Details where User_name=? and User_password=?");
